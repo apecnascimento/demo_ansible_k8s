@@ -1,7 +1,5 @@
 ---
 - hosts: all
-  vars:
-    name: demo
   tasks:
     - name: Create Namespace Demo
       k8s:
