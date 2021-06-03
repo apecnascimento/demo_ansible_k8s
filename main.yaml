@@ -4,4 +4,4 @@
     - name: Create Namespace Demo
       k8s:
         state: present
-        defination: "{{ lookup('template', '/templates/ns.yml') | from_yaml }}"
+        defination: "{{ lookup('template', 'templates/ns.yml') | from_yaml }}"
